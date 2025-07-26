@@ -1,0 +1,21 @@
+name: agentic-legal-assistant
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - fastapi==0.110.0
+      - uvicorn==0.29.0
+      - pydantic==2.5.0
+      - python-dotenv==1.0.0
+      - google-generativeai==0.3.2
+      - pandas==2.1.0
+      - numpy==1.24.0
+      - pillow==10.2.0
+      - pdfplumber==0.10.3
+      - pytesseract==0.3.10
+      - icalendar==5.0.11
+      - python-multipart==0.0.6
+      - aiofiles==23.2.1
